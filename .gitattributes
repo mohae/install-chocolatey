@@ -1,0 +1,5 @@
+﻿# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# All powershell scripts will use CRLF line endings on checkout.
+*.ps1 text eol=crlf
